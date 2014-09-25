@@ -178,8 +178,14 @@ div#templateDiv.tablet-version {
   height: 204px;
 }
 
-.tablet-version div#details ul {
-  width: 500px;
+.tablet-version div#details #detailsInner #detailsContent {
+  position: absolute;
+  top: 33px;
+  right: 17px;
+  width: 640px;
+  height: 145px;
+  background-image: url('http://bl-template-assets.s3-website-us-east-1.amazonaws.com/reviews.png');
+  background-size: 640px; 
 }
 
 .tablet-version div#overlay div#tagImage {

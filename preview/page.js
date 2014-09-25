@@ -9,7 +9,7 @@ BL.addTemplateResetFunction(function() {
   $(appSelector + ' #overlay').css('display', 'none');
 })
 
-if (BL.isTablet && false) {
+if (BL.isTablet) {
   $(appSelector + ' #templateDiv').addClass('tablet-version');
     
   $(appSelector + ' p, ' + appSelector + ' span').forEach(function(p) {
