@@ -1,0 +1,196 @@
+* {
+  font-family: arial;
+}
+
+p {
+  padding: 0;
+}
+
+div {
+  width: 100%;
+  margin: 0 auto;  
+}
+
+div p {  
+  margin-top: 0px;
+}
+
+div#templateDivInner {
+  width: 320px;
+}
+
+div#bodyDiv {
+  height: 157px;
+}
+
+div#bodyDiv div {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  background-color: ${bg_color};
+}
+
+div#bodyDiv #bodyText {
+  float: right;
+}
+
+div#bodyDiv div#bodyText>p {
+  padding-top: 30px;
+}
+
+div#bodyDiv div#bodyText>p {
+  width: 150px;
+}
+
+div#bodyDiv div#priceDiv {
+  width: 99px;
+  height: 49px;
+  background: ${highlight_color};
+  text-align: center;
+  margin: 0;
+}
+
+div#bodyDiv div#priceDiv p {
+  font-size: 18px;
+  line-height: 49px;
+  margin: 0;
+  text-align: center;
+}
+
+div#bodyDiv #imageDiv {
+  float: left;
+}
+
+div#bodyDiv #imageDiv img {
+  height: 100%;
+}
+
+div#details {
+  background-color: ${bg_color};
+  height: 132px;
+}
+
+div#details #detailsInner {
+  position: relative;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+div#details #detailsInner #detailsContent {
+  position: absolute;
+  top: 33px;
+  right: 17px;
+  width: 320px;
+  height: 72px;
+  background-image: url('http://bl-template-assets.s3-website-us-east-1.amazonaws.com/reviews.png');
+  background-size: 320px 72px; 
+}
+
+div#details #detailsInner p {
+  margin-bottom: 5px;
+}
+
+div#details ul {
+  width: 275px;
+}
+
+div#details li {
+  margin-left: 15px;
+  list-style: inherit;
+  height: inherit;
+}
+
+hr {
+  margin: 0;
+  border: 1px solid ${highlight_color};
+}
+
+div#buttonText {
+  height: 52px;
+  background: ${button_bg_color};
+}
+
+div#buttonText p {
+  color: ${highlight_color};
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 52px;
+} 
+
+div#overlay {
+  margin: 0;
+  display: none;
+  background: rgba(74, 74, 74, 0.90);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 24px;
+}
+
+div#overlay #overlayInner {
+  padding-top: 259px;
+}
+
+div#overlay p {
+  text-align: center;
+  color: white;
+}
+
+div#overlay p#confTop {
+  font-size:24px;
+  margin-bottom: 12px;
+}
+
+div#overlay p#confBottom {
+  font-size:14px;
+}
+
+/** BEGIN styles for tablet version **/
+
+div#templateDiv.tablet-version {
+  background: #474747;
+}
+
+.tablet-version div#templateDivInner {
+  width: 630px;
+}
+
+.tablet-version div#bodyDiv {
+  height: 270px;
+}
+
+.tablet-version div#bodyDiv div#bodyText>p {
+  width: 300px;
+  line-height: 40px;
+}
+
+.tablet-version div#bodyDiv div#priceDiv {
+  width: 200px;
+  height: 49px;
+  background: ${highlight_color};
+  text-align: center;
+  margin: 0;
+}
+
+.tablet-version div#details {
+  height: 204px;
+}
+
+.tablet-version div#details ul {
+  width: 500px;
+}
+
+.tablet-version div#overlay div#tagImage {
+  top: 46px;
+  right: 34px;
+  width: 86px;
+  height: 56px;
+  background-size: 86px 56px;
+}
+
+.tablet-version div#overlay p#confTop {
+  margin-bottom: 24px;
+}
+
